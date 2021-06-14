@@ -15,17 +15,44 @@ text-align:top;}
     margin-right:500px;
      margin-top:50px;
      margin-bottom:50px;}
+        ul {
+      background-color: black;
+     }
+     ul li{
+      display: inline-block;
+      padding: 15px;
+     }
+     ul li a{
+       text-decoration:none;
+       color:white;
+     }
+     .active,ul li:hover{
+      background-color: #333;
+     }
 </style>
 </head>
 <body>
-   <p><h1>Review and Herald Publishing Association</h1></p>
-   <img src="sd.png" alt="sd" align="right">
-  <img src="rev.jpg" alt="rev">
- <p>Publishing
-
-Review and Herald Publishing Association 1868
-The Adventist Church owns and operates many publishing companies around the world. Two of the largest are the Pacific Press and Review and Herald publishing associations, both located in the United States. The Review and Herald is headquartered in Hagerstown, Maryland.[104]
-
-The official church magazine is the Adventist Review, which has a North American focus. It has a sister magazine (Adventist World), which has an international perspective. Another major magazine published by the church is the bimonthly Liberty magazine, which addresses issues pertaining to religious freedom.</p>
+  </center>
+<ul><center>
+<li><a href="index.html">HOME</a></li>
+<li class="active"><a href="#">ABOUT US</a></li>
+<li><a href="west_field.html">EDUCATION</a></li>
+</center>
+</ul> 
+   <p><h1>OUR LIBRARY IS OPEN EVERY DAY AND WORKS 24 HOURS/24 HOURS</h1></p>
+   <img src="1.jpg" alt="sd" align="right"width="400px" height="500px">
+ <P> do you want to enter in our library please fill the following form;</P>
+ <form action="register.php" method="get">
+  first name; <input type="text" name="fname"></br>
+  last name: <input type="tex" name="lname"></br>
+  nationality: <input type="text" name="country"></br>
+  phone number:<input type="text" name="phone"></br>
+  e-mail:<input type="text" name="e-mail"></br>
+  <label for="dates">date:</label>
+  <label></label><input type="date" name="type-date" id="type-date"></label>
+  <label for="time"> time:</label>
+  <label><input type="time" name="tim" id="tim"></label>
+  <input type="submit"  value="send" name="button">
+  </form>
 </body>
 </html>
